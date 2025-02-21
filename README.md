@@ -18,6 +18,7 @@ dot config --local status.showUntrackedFiles no
 - `.zshrc` - My Zsh configuration
 - `.gitconfig` - My Git aliases and settings
 - `bin/` - Custom scripts
+and more to come...
 
 ## 🔄 Syncing Changes
 
