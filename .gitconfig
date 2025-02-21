@@ -9,4 +9,12 @@
 [init]
 	defaultBranch = main
 [alias]
-	cleanup = "!git checkout dev && git pull -p && git branch | grep -v \"^\\*\" | xargs git branch -D"
+	cleanpull = "!f() { \
+        DEFAULT_BRANCH=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'); \
+				REPO_NAME=$(basename -s .git `git config --get remote.origin.url`); \
+				echo "🔗 Repository: $REPO_NAME"; \
+				echo "✨ Default branch: $DEFAULT_BRANCH"; \
+        git checkout $DEFAULT_BRANCH && \
+        git pull -p && \
+        git branch | grep -v \"^\\*\" | grep -v \"$DEFAULT_BRANCH\" | xargs -r git branch -D; \
+    }; f"
