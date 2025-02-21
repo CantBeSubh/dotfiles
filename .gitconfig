@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Subhranshu Pati
+	email = subhranshupati0412@gmail.com
+[init]
+	defaultBranch = main
+[alias]
+	cleanup = "!git checkout dev && git pull -p && git branch | grep -v \"^\\*\" | xargs git branch -D"
