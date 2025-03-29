@@ -1,3 +1,4 @@
+Import-Module z
 Invoke-Expression (&starship init powershell)
 
 function dot {
