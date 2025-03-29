@@ -1,5 +1,5 @@
 Import-Module z
-Invoke-Expression (&starship init powershell)
+Import-Module -Name Terminal-Icons
 
 function dot {
     param(
@@ -8,3 +8,5 @@ function dot {
     )
     & git --git-dir="$HOME\.dotfiles" --work-tree="$HOME" @args
 }
+
+Invoke-Expression (&starship init powershell)
