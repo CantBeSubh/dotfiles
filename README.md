@@ -33,3 +33,5 @@ dot push origin main
 ## 🛑 Warning
 
 ⚠️ Be careful when running `dot checkout -f`, as it overwrites existing files in your home directory.
+
+(for me - https://chatgpt.com/c/67b85826-7a2c-800b-8ecf-957a71bdcada)
