@@ -148,3 +148,5 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:/Users/subhr/.cache/lm-studio/bin"
 
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+
+source ~/.zsh/functions.zsh
