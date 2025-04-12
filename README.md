@@ -51,6 +51,9 @@ function dot {
 
 Invoke-Expression (&starship init powershell)
 ```
+
+You probably would need to grant permission to run `.ps1` file. Run this command to do so - `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
+
 Install these PS-Gallary modules
 
 ```ps
