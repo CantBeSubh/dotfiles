@@ -149,7 +149,9 @@ export PATH="$PATH:/Users/subhr/.cache/lm-studio/bin"
 
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-source ~/.zsh/functions.zsh# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+source ~/.zsh/functions.zsh
+
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/subhr/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
