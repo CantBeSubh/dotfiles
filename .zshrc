@@ -144,6 +144,9 @@ export NVM_DIR="$HOME/.nvm"
 # bun completions
 [ -s "/Users/subhr/.bun/_bun" ] && source "/Users/subhr/.bun/_bun"
 
+# bun path
+export PATH="/Users/subhr/.bun/bin:$PATH"
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/subhr/.cache/lm-studio/bin"
 
