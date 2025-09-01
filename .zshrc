@@ -163,3 +163,4 @@ compinit
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 export PATH=$PATH:$HOME/.local/opt/go/bin
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
