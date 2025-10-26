@@ -2,6 +2,7 @@
 padding.x = 16
 padding.y = 14
 decorations = "none" # Removes the window decoration (title bar, etc.)
+startup_mode = "Maximized" 
 
 [font]
 size = 13
