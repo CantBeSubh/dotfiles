@@ -2,12 +2,12 @@
 padding.x = 16
 padding.y = 14
 decorations = "none" # Removes the window decoration (title bar, etc.)
-startup_mode = "Maximized" 
+startup_mode = "Maximized"
 opacity = 0.5
 blur = true
 
 [font]
-size = 13
+size = 14
 normal = { family = "MesloLGS NF", style = "Regular" }
 bold = { family = "MesloLGS NF", style = "Bold" }
 italic = { family = "MesloLGS NF", style = "Italic" }
