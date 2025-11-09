@@ -167,11 +167,3 @@ compinit
 # ___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
 
 alias zz='zellij'
-
-# Created by `pipx` on 2025-11-08 08:23:04
-export PATH="$PATH:/Users/subheverstar/.local/bin"
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/subheverstar/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
-# End of Docker CLI completions
