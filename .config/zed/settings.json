@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "disable_ai": false,
+  "edit_predictions": {
+    "provider": "mercury"
+  },
   "buffer_font_family": "Fira Code",
   "agent": {
     "dock": "left",

@@ -167,3 +167,9 @@ compinit
 # ___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
 
 alias zz='zellij'
+
+# LaTeX (BasicTeX)
+export PATH="/Library/TeX/texbin:$PATH"
+
+alias mg='mongosh'
+alias kb='kubectl'
