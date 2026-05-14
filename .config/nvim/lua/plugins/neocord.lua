@@ -1,6 +1,6 @@
 return {
-    {
-        'IogaMaster/neocord',
-        event = "VeryLazy"
-    }
+  {
+    "IogaMaster/neocord",
+    event = "VeryLazy",
+  },
 }

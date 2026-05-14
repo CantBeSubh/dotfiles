@@ -175,3 +175,6 @@ alias mg='mongosh'
 alias kb='kubectl'
 
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
+alias tf='terraform'
+
+alias claude-mem='bun "/Users/subhr/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'

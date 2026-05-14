@@ -85,8 +85,9 @@ require("neocord").setup({
     blacklist           = {},                    -- A list of strings or Lua patterns that disable Rich Presence if the current file name, path, or workspace matches
     file_assets         = {},                    -- Custom file asset definitions keyed by file names and extensions (see default config at `lua/presence/file_assets.lua` for reference)
     show_time           = true,                  -- Show the timer
-    global_timer        = false,                 -- if set true, timer won't update when any event are triggered
+    global_timer        = true,                 -- if set true, timer won't update when any event are triggered
     buttons             = nil,                   -- A list of buttons (objects with label and url attributes) or a function returning such list.
+    enable_line_number  = true,                  -- Enable line number display in Rich Presence
 
     -- Rich Presence text options
     editing_text        = "Editing %s",         -- Format string rendered when an editable file is loaded in the buffer (either string or function(filename: string): string)
