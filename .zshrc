@@ -112,69 +112,13 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
-
-PATH=~/.console-ninja/.bin:$PATH
-
-export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
-
-# pnpm
-export PNPM_HOME="/Users/subhr/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
-# These lines setup the DevZero CLI completions.
-autoload -Uz compinit
-compinit
-if test -x "/usr/local/bin/dzcmd"; then
-source <(/usr/local/bin/dzcmd dz completion zsh)
-fi
-
-. "/Users/subhr/.deno/env"
-# Created by `pipx` on 2024-11-26 17:10:22
-export PATH="$PATH:/Users/subhr/.local/bin"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# bun completions
-[ -s "/Users/subhr/.bun/_bun" ] && source "/Users/subhr/.bun/_bun"
-
-# bun path
-export PATH="/Users/subhr/.bun/bin:$PATH"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/subhr/.cache/lm-studio/bin"
-
-alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-
 source ~/.zsh/functions.zsh
 
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/subhr/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
-# End of Docker CLI completions
+###############################################################################################
+# ALIASES
 
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-# export PATH=$PATH:$HOME/.local/opt/go/bin
-# export DOCKER_DEFAULT_PLATFORM=linux/amd64
-# ___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
-
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias zz='zellij'
-
-# LaTeX (BasicTeX)
-export PATH="/Library/TeX/texbin:$PATH"
-
 alias mg='mongosh'
 alias kb='kubectl'
-
-if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
 alias tf='terraform'
-
-alias claude-mem='bun "/Users/subhr/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'
