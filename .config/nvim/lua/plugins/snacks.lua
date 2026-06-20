@@ -5,6 +5,8 @@ return {
             sources = {
                 explorer = {
                     auto_close = true,          -- Auto-close the explorer when a file is selected
+                    hidden = true,               -- Show hidden files by default
+                    ignored = true,              -- Show gitignored files by default
                     layout = {
                         { preview = true },     -- The preview window
                         layout = {
