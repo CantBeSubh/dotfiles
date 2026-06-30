@@ -1,17 +1,19 @@
 return {
-    {
-        "scottmckendry/cyberdream.nvim",
-        lazy = false,
-        priority = 1000,
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      transparent = true,
     },
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "cyberdream",
-        }
-    }
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "cyberdream",
+    },
+  },
 }
-
 
 -- return {
 --     { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },

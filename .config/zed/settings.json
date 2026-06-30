@@ -27,7 +27,11 @@
     "dock": "left",
     "model_parameters": []
   },
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha"
+  },
   "project_panel": {
     "auto_fold_dirs": false,
     "dock": "right"
@@ -40,8 +44,8 @@
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Espresso (Blur)"
+    "dark": "One Dark"
   }
 }
