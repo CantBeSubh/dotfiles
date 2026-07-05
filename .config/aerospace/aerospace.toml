@@ -144,7 +144,18 @@ on-mode-changed = []
     alt-d = 'workspace D'
     alt-e = 'workspace E'
     alt-f = 'workspace F'
-    alt-g = 'workspace G'
+    # alt-g = 'workspace G'
+    alt-g = [
+      'flatten-workspace-tree',
+      'layout tiles horizontal',
+      'focus right',
+      'focus right',
+      'focus right',
+      'join-with left',
+      'focus left',
+      'join-with left',
+      'balance-sizes'
+    ]
     alt-i = 'workspace I'
     alt-m = 'workspace M'
     alt-n = 'workspace N'
