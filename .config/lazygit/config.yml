@@ -4,8 +4,6 @@ git:
       pager: delta --dark --paging=never --syntax-theme "Monokai Extended" -s
     - colorArg: always
       pager: delta --dark --paging=never --syntax-theme "Monokai Extended"
-    - colorArg: always
-      pager: hunk pager
 
 gui:
   sidePanelWidth: 0.25
