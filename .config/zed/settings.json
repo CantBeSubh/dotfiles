@@ -39,14 +39,14 @@
   "terminal": {
     "cursor_shape": "bar",
     "blinking": "on",
-    "font_family": "MesloLGS NF",
+    "font_family": "FiraCode Nerd Font",
   },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Espresso (Blur) [Light]",
+    "dark": "Snazzy Theme - blurred",
   },
   "lsp": {
     "tinymist": {
