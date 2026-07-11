@@ -1,0 +1,24 @@
+[theme]
+name = "terminal"
+auto_switch = false
+
+[ui.sound]
+enabled = true
+
+[ui.toast]
+delivery = "terminal"
+
+[ui]
+show_agent_labels_on_pane_borders = true
+
+agent_panel_sort = "spaces"
+[keys]
+prefix = "ctrl+a"
+switch_tab = "ctrl+1..9"
+switch_workspace = "cmd+1..9"
+detach = "prefix+d"
+new_tab="cmd+t"
+rename_tab="cmd+r"
+rename_workspace="cmd+shift+r"
+previous_tab = ["prefix+p", "ctrl+alt+[","ctrl+shift+tab"]
+next_tab = ["prefix+n", "ctrl+alt+]","ctrl+tab"]
