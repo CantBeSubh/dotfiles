@@ -10,3 +10,22 @@ vim.keymap.set("n", "<leader>uu", function()
     vim.o.background = "dark"
   end
 end, { desc = "Toggle Dark/Light theme" })
+
+-- Toggle background transparency
+local transparent = false
+local groups = {
+  "Normal",
+  "NormalNC",
+  "NormalFloat",
+  "FloatBorder",
+  "SignColumn",
+  "LineNr",
+}
+
+vim.keymap.set("n", "<leader>uU", function()
+  transparent = not transparent
+  for _, g in ipairs(groups) do
+    vim.api.nvim_set_hl(0, g, { bg = transparent and "none" or nil })
+  end
+  vim.notify("Transparency " .. (transparent and "ON" or "OFF"))
+end, { desc = "Toggle transparency" })

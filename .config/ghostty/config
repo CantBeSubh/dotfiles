@@ -60,3 +60,6 @@ keybind = alt+left=text:\x1bb
 keybind = alt+right=text:\x1bf
 keybind = cmd+backspace=text:\x15
 keybind = alt+backspace=text:\x1b\x7f
+
+desktop-notifications = true
+

@@ -23,23 +23,6 @@ end
 vim.o.background = "dark"
 vim.g.colors_name = "snazzy"
 
-local d = {
-  bg = "#1e2127",
-  fg = "#ffffff",
-  black = "#1e2127",
-  red = "#e06c75",
-  green = "#98c379",
-  yellow = "#d19a66",
-  blue = "#61afef",
-  magenta = "#c678dd",
-  cyan = "#56b6c2",
-  white = "#828791",
-  grey = "#5c6370",
-  sel = "#3e4451",
-  seltext = "#ffffff",
-  cursor = "#ffffff",
-}
-
 local c = {
   bg = "#1c1e26",
   fg = "#ffffff",
@@ -49,7 +32,7 @@ local c = {
   yellow = "#f3f99d",
   -- yes I have flipped blue and cyan
   cyan = "#57c7ff",
-  blue = "#9aedfe",
+  blue = "#5791ff",
   magenta = "#ff6ac1",
   white = "#f1f1f0",
   grey = "#5c6370",
