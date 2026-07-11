@@ -8,9 +8,15 @@ maximize = true
 background-opacity = 0.75
 background-blur = true
 
-# Font
-# font-family = "FiraCode Nerd Font"
+# Font — Victor Mono gives the cursive italic (Operator Mono stand-in).
+# Set ONLY the family; Ghostty auto-selects the Italic face for italic text.
+# Do NOT set font-family-italic or font-style-italic — those override and
+# break the automatic cursive-italic selection.
+
 font-family = "FiraCode Nerd Font"
+font-family-italic = "VictorMono Nerd Font Mono"
+font-family-bold = "FiraCode Nerd Font"
+font-family-bold-italic = "VictorMono Nerd Font Mono"
 font-size = 14
 
 # Colors
@@ -40,6 +46,12 @@ palette = 15=e6efff
 # Cursor
 cursor-style = bar
 cursor-style-blink = true
+cursor-color = ffffff
+cursor-text = 1e2127
+
+# Selection
+selection-background = 3e4451
+selection-foreground = ffffff
 
 # Keybindings (readline-style line/word navigation and deletion)
 keybind = cmd+left=text:\x1bOH

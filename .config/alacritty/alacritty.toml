@@ -11,6 +11,7 @@ size = 14
 normal = { family = "FiraCode Nerd Font", style = "Regular" }
 bold = { family = "FiraCode Nerd Font", style = "Bold" }
 italic = { family = "FiraCode Nerd Font", style = "Italic" }
+
 [colors]
 [colors.primary]
 background = '0x1e2127'
