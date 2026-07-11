@@ -9,6 +9,7 @@ background-opacity = 0.75
 background-blur = true
 
 # Font
+# font-family = "FiraCode Nerd Font"
 font-family = "FiraCode Nerd Font"
 font-size = 14
 

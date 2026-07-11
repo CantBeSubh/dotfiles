@@ -141,3 +141,6 @@ if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)
 # >>> railway initialize >>>
 source "$HOME/.railway/env"
 # <<< railway initialize <<<
+
+# lazygit
+export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml"
