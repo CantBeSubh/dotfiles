@@ -6,6 +6,7 @@
 [user]
 	name = Subhranshu Pati
 	email = subhranshupati0412@gmail.com
+	signingkey = 1292201BC6F5268E
 [init]
 	defaultBranch = main
 [alias]
@@ -18,3 +19,5 @@
         git pull -p && \
         git branch | grep -v \"^\\*\" | grep -v \"$DEFAULT_BRANCH\" | xargs -r git branch -D; \
     }; f"
+[gpg]
+	program = /opt/homebrew/bin/gpg

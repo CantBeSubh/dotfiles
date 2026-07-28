@@ -123,6 +123,7 @@ alias zz='zellij'
 alias mg='mongosh'
 alias kb='kubectl'
 alias tf='terraform'
+alias h='herdr'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -144,3 +145,8 @@ source "$HOME/.railway/env"
 
 # lazygit
 export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/subhr/.lmstudio/bin"
+# End of LM Studio CLI section
+

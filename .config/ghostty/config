@@ -86,6 +86,7 @@ keybind = super+9=unbind
 
 keybind = ctrl+shift+tab=unbind
 keybind = super+t=unbind
+keybind = super+b=unbind
 
 keybind = ctrl+tab=text:\x1b[27;5;9~
 keybind = ctrl+shift+tab=text:\x1b[27;6;9~
